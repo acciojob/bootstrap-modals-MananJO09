@@ -1,50 +1,47 @@
 <!DOCTYPE html>
-
+ 
 <html>
-
+ 
 <head>
 	<link rel="stylesheet" href="styles.css">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
 </head>
-
+ 
 <body>
 	<!-- the entire body must be written by student -->
-	<!-- Button to open the modal -->
-<button type="button" class="btn btn-primary" id="open-modal" data-toggle="modal" data-target="#accio-modal">
-  Launch newton modal
-</button>
-
-<!-- The Modal -->
-<div class="modal fade" id="accio-modal" tabindex="-1" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h5 class="modal-title" id="modal-title">New Modal</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-
-      <!-- Modal Body -->
-      <div class="modal-body">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sem auctor, efficitur lectus vitae, malesuada nunc. Phasellus eget eleifend justo. 
-			Suspendisse vel dolor libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vitae sapien bibendum, vestibulum orci eu, iaculis mauris.
-			Etiam vehicula purus eu elit mollis, a gravida quam faucibus. 
-			Donec et sapien suscipit, blandit nibh a, aliquet risus. Praesent ut odio a nulla ultrices laoreet.</p>
-      </div>
-
-      <!-- Modal Footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-    <script type="text/javascript" src="./script.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<button id="open-modal" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newton-modal">
+		Launch newton modal
+	</button>
+	<div class="modal fade" id="newton-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">New Modal</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed
+					cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+					Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget
+					nulla.
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+ 
+ 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+		crossorigin="anonymous"></script>
+ 
+ 
+	<script type="text/javascript" src="./script.js">
+	</script>
+ 
 </body>
-
+ 
 </html>
