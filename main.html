@@ -9,28 +9,40 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
+	<!-- Button to open the modal -->
+<button type="button" class="btn btn-primary" id="open-modal" data-toggle="modal" data-target="#accio-modal">
+  Launch newton modal
 </button>
-	<div class="modal" tabindex="-1">
-  <div class="modal-dialog">
+
+<!-- The Modal -->
+<div class="modal fade" id="accio-modal" tabindex="-1" role="dialog" aria-labelledby="modal-title" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
+      <!-- Modal Header -->
       <div class="modal-header">
-        <h5 class="modal-title">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <h5 class="modal-title" id="modal-title">New Modal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
       </div>
+
+      <!-- Modal Body -->
       <div class="modal-body">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus possimus, eaque, facilis eos iusto culpa veniam beatae nam maiores corporis nisi porro molestiae iste voluptatum adipisci fugiat. Cupiditate, illo debitis.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget sem auctor, efficitur lectus vitae, malesuada nunc. Phasellus eget eleifend justo. 
+			Suspendisse vel dolor libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vitae sapien bibendum, vestibulum orci eu, iaculis mauris.
+			Etiam vehicula purus eu elit mollis, a gravida quam faucibus. 
+			Donec et sapien suscipit, blandit nibh a, aliquet risus. Praesent ut odio a nulla ultrices laoreet.</p>
       </div>
+
+      <!-- Modal Footer -->
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
 </div>
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
